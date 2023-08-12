@@ -63,7 +63,7 @@
 &kp N1  &kp N2   &kp N3     &kp N4      &kp PLUS          &kp F6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp EQUAL
 &kp N5  &kp N6   &kp N7     &kp N8  &kp KP_MINUS          &kp N6      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &kp GRAVE
 &kp N9  &kp N0  &kp DOT  &kp SPACE        &trans  &kp LEFT_BRACE       &kp RIGHT_BRACE               &kp SEMI  &kp COLON
-&trans  &trans   &trans     &trans       &kp RET          &trans                &trans                 &trans
+&trans  &trans   &trans     &trans   &lt 2 ENTER          &trans                &trans                 &trans
             >;
         };
 
