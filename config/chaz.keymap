@@ -24,6 +24,21 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <13 16>;
+            layers = <0>;
+        };
+
+        qw_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -67,10 +82,10 @@
 
         Arrows {
             bindings = <
-&trans    &trans  &kp UP_ARROW     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT      &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans        &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans        &trans     &trans  &trans  &trans  &trans  &trans
+  &kp PAGE_UP  &kp HOME  &kp UP_ARROW    &kp END  &trans  &trans  &trans  &trans  &trans  &trans
+&kp PAGE_DOWN  &kp LEFT      &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+       &trans    &trans        &trans     &trans  &trans  &trans  &trans  &trans  &trans
+       &trans    &trans        &trans     &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
