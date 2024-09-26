@@ -90,6 +90,12 @@
     combos {
         compatible = "zmk,combos";
 
+        slash_question {
+            bindings = <&kp SLASH>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+
         left_enter {
             bindings = <&kp ENTER>;
             key-positions = <1 12 23>;
@@ -134,7 +140,7 @@
 
         js_doc {
             bindings = <&js_doc>;
-            key-positions = <29 28>;
+            key-positions = <28 27 26>;
         };
 
         caps_lock {
