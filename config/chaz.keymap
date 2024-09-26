@@ -138,6 +138,11 @@
             bindings = <&tog 4>;
             key-positions = <11 2 13>;
         };
+
+        jsdoc {
+            bindings = <&js_doc>;
+            key-positions = <28 27 26>;
+        };
     };
 
     macros {
