@@ -132,7 +132,7 @@
         };
 
         toggle_nav {
-            bindings = <&tog 2>;
+            bindings = <&tog 4>;
             key-positions = <11 2 13>;
             layers = <0 2>;
             require-prior-idle-ms = <350>;
