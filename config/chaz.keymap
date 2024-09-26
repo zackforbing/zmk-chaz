@@ -153,11 +153,6 @@
             key-positions = <0 11>;
         };
 
-        soft_off {
-            bindings = <&soft_off>;
-            key-positions = <0 32 9 33>;
-        };
-
         bootloader {
             bindings = <&bootloader>;
             key-positions = <4 14 5 15>;
