@@ -17,7 +17,7 @@
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "homerow_mods";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -29,7 +29,7 @@
 
         hs: homerow_shift {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_SHIFT";
+            label = "homerow_shift";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -151,21 +151,6 @@
         screen_shot {
             bindings = <&kp LS(LG(N5))>;
             key-positions = <0 11>;
-        };
-
-        bootloader {
-            bindings = <&bootloader>;
-            key-positions = <4 14 5 15>;
-        };
-
-        bt_clear_all {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <32 33 34 35>;
-        };
-
-        reset {
-            bindings = <&sys_reset>;
-            key-positions = <30 31 32>;
         };
 
         globe {
