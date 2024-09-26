@@ -170,7 +170,7 @@
 
         reset {
             bindings = <&sys_reset>;
-            key-positions = <30 31 32 35 36 37>;
+            key-positions = <30 31 32>;
         };
 
         globe {
