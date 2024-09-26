@@ -153,6 +153,21 @@
             key-positions = <0 11>;
         };
 
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <4 14 5 15>;
+        };
+
+        bt_clear_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <32 33 34 35>;
+        };
+
+        reset {
+            bindings = <&sys_reset>;
+            key-positions = <30 31 32>;
+        };
+
         globe {
             bindings = <&kp GLOBE>;
             key-positions = <4 5>;
@@ -209,7 +224,7 @@
             bindings = <
 &kp N1              &kp N2           &kp N3         &kp N4             &kp N5          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp UNDER       &kp PLUS             &kp TILDE
 &mt LCTRL NUMBER_6  &hm LEFT_ALT N7  &hm LGUI N8    &hm LEFT_SHIFT N9  &kp N0          &kp LEFT_BRACKET      &hm RIGHT_SHIFT RIGHT_BRACKET  &hm RGUI MINUS  &hm RIGHT_ALT EQUAL  &mt RCTRL GRAVE
-&kp KP_ENTER        &none            &kp LS(LG(S))  &kp KP_DOT         &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BSLH                       &kp A   &kp V
+&kp KP_ENTER        &none            &kp LS(LG(S))  &kp KP_DOT         &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BSLH                       &kp LESS_THAN   &kp GREATER_THAN
 &kp C_VOL_DN        &kp C_VOL_UP           &none          &trans             &lt 6 TAB       &kp RET               &trans                         &trans
             >;
         };
