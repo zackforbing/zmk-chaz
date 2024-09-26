@@ -236,7 +236,7 @@
 &mt LSHIFT PG_UP            &mt LEFT_ALT HOME  &mt LC(LSHIFT) UP_ARROW  &mt LEFT_ALT END  &kp LS(LA(LC(BACKSLASH)))  &none    &kp F9        &kp F10      &kp F11           &kp F12
 &mt LC(LEFT_CONTROL) PG_DN  &kp LEFT_ARROW     &kp DOWN_ARROW           &kp RIGHT_ARROW   &bksp_del                  &none    &hm RSHFT F5  &hm RGUI F6  &hm RIGHT_ALT F7  &mt RCTRL F8
 &kp LG(Z)                   &kp LG(X)          &kp LG(C)                &kp LG(V)         &kp LG(LS(K))              &kp F1   &kp F2        &kp F3       &kp F4
-&trans                      &trans             &trans                   &kp LCTRL         &trans                     &kp RET  &trans        &kp FSLH
+&trans                      &trans             &trans                   &lt 6 DEL         &trans                     &kp RET  &trans        &kp FSLH
             >;
         };
 
