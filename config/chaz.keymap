@@ -136,8 +136,8 @@
             require-prior-idle-ms = <350>;
         };
 
-        jsdoc {
-            bindings = <&jsdoc>;
+        js_doc {
+            bindings = <&js_doc>;
             key-positions = <29 28>;
         };
 
