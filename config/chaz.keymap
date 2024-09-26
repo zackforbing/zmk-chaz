@@ -272,13 +272,4 @@
             label = "adm";
         };
     };
-
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        win_num_sym {
-            if-layers = <0 1>;
-            then-layer = <3>;
-        };
-    };
 };
