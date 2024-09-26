@@ -98,7 +98,7 @@
 
         left_enter {
             bindings = <&kp ENTER>;
-            key-positions = <1 12 23>;
+            key-positions = <1 12 22>;
         };
 
         right_enter {
@@ -160,12 +160,12 @@
 
         bt_clear_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <32 33 34 35>;
+            key-positions = <32 33 34 31>;
         };
 
         reset {
             bindings = <&sys_reset>;
-            key-positions = <30 31 32>;
+            key-positions = <30 29 36 35>;
         };
 
         globe {
@@ -225,7 +225,7 @@
 &kp N1              &kp N2           &kp N3         &kp N4             &kp N5          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp UNDER       &kp PLUS             &kp TILDE
 &mt LCTRL NUMBER_6  &hm LEFT_ALT N7  &hm LGUI N8    &hm LEFT_SHIFT N9  &kp N0          &kp LEFT_BRACKET      &hm RIGHT_SHIFT RIGHT_BRACKET  &hm RGUI MINUS  &hm RIGHT_ALT EQUAL  &mt RCTRL GRAVE
 &kp KP_ENTER        &none            &kp LS(LG(S))  &kp KP_DOT         &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BSLH                       &kp LESS_THAN   &kp GREATER_THAN
-&kp C_VOL_DN        &kp C_VOL_UP           &none          &trans             &lt 6 TAB       &kp RET               &trans                         &trans
+&kp C_VOL_DN        &kp C_VOL_UP     &none          &trans             &lt 6 TAB       &kp RET               &trans                         &trans
             >;
         };
 
@@ -247,12 +247,12 @@
             >;
         };
 
-        win_nav_fun {
+        win_nav_fn {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LCTRL F6  &trans  &mt LGUI F8
-&kp LC(Z)            &kp LC(X)      &kp LC(C)  &kp LC(V)     &kp LS(LC(K))  &trans  &trans  &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &trans     &trans         &trans  &trans  &trans        &trans  &trans
+&trans     &trans     &trans     &trans     &trans         &trans  &trans  &mt LCTRL F6  &trans  &mt LGUI F8
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(LC(K))  &trans  &trans  &trans        &trans
+&trans     &trans     &trans     &trans     &trans         &trans  &trans  &trans
             >;
         };
 
@@ -265,6 +265,20 @@
             >;
 
             label = "adm";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        num_sym_win {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+
+        nav_func_win {
+            if-layers = <1 4>;
+            then-layer = <5>;
         };
     };
 };
