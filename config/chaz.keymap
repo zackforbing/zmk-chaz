@@ -64,7 +64,7 @@
             tapping-term-ms = <250>;
         };
 
-        comma_semicolon: comma_semicolon {
+        com_scln: comma_semicolon {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_SEMICOLON";
             bindings = <&kp COMMA>, <&kp SEMICOLON>;
@@ -73,7 +73,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        period_colon: period_colon {
+        pd_cln: period_colon {
             compatible = "zmk,behavior-mod-morph";
             label = "PERIOD_COLON";
             bindings = <&kp PERIOD>, <&kp COLON>;
