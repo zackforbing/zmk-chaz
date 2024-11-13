@@ -9,9 +9,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 &lt {
-    quick-tap-ms = <150>;
-    tapping-term-ms = <250>;
+    quick-tap-ms = <200>;
+    flavor = "balanced";
+    hold-while-undecided;
 };
+
+&mt { quick-tap-ms = <200>; };
 
 / {
     behaviors {
