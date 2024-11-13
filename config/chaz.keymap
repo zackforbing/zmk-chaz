@@ -226,7 +226,7 @@
     };
 
     macros {
-        js_doc: js_doc {
+        jsdoc: jsdoc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp FSLH &kp STAR &kp STAR &kp SPACE>;
