@@ -291,10 +291,10 @@
 
         num_sym {
             bindings = <
-&kp N1               &kp N2            &kp N3                  &kp PLUS              &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS           &kp UNDER        &kp PLUS              &kp TILDE
-&hml LCTRL NUMBER_4  &hml LEFT_ALT N5  &hml LGUI LC(NUMBER_6)  &hsl LEFT_SHIFT STAR  &kp SLASH    &kp LEFT_BRACKET      &hsr RIGHT_SHIFT RIGHT_BRACKET  &hmr RGUI MINUS  &hmr RIGHT_ALT EQUAL  &hmr RCTRL GRAVE
-&kp N7               &kp N8            &kp N9                  &kp N0                &kp LG(DOT)  &kp LEFT_BRACE        &kp RIGHT_BRACE                 &kp LESS_THAN    &kp GREATER_THAN
-&kp C_VOL_DN         &kp C_VOL_UP      &none                   &trans                &lt 6 TAB    &kp RET               &trans                          &trans
+&kp N1               &kp N2            &kp N3                  &kp PLUS              &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS           &kp UNDER        &kp PLUS              &kp TILDE
+&hml LCTRL NUMBER_4  &hml LEFT_ALT N5  &hml LGUI LC(NUMBER_6)  &hsl LEFT_SHIFT STAR  &kp SLASH         &kp LEFT_BRACKET      &hsr RIGHT_SHIFT RIGHT_BRACKET  &hmr RGUI MINUS  &hmr RIGHT_ALT EQUAL  &hmr RCTRL GRAVE
+&kp N7               &kp N8            &kp N9                  &kp N0                &kp LG(DOT)       &kp LEFT_BRACE        &kp RIGHT_BRACE                 &kp LESS_THAN    &kp GREATER_THAN
+&kp C_VOL_DN         &kp C_VOL_UP      &none                   &trans                &lt 6 LA(DELETE)  &kp RET               &trans                          &trans
             >;
         };
 
@@ -309,10 +309,10 @@
 
         nav_fn {
             bindings = <
-&mt LSHIFT PG_UP            &mt LEFT_ALT HOME  &mt LC(LSHIFT) UP_ARROW  &mt LEFT_ALT END  &kp LS(LA(LC(BACKSLASH)))  &none    &kp F9         &kp F10       &kp F11            &kp F12
-&mt LC(LEFT_CONTROL) PG_DN  &kp LEFT_ARROW     &kp DOWN_ARROW           &kp RIGHT_ARROW   &bksp_del                  &none    &hsr RSHFT F5  &hmr RGUI F6  &hmr RIGHT_ALT F7  &hmr RCTRL F8
-&kp LG(Z)                   &kp LG(X)          &kp LG(C)                &kp LG(V)         &kp LG(LS(K))              &kp F1   &kp F2         &kp F3        &kp F4
-&trans                      &trans             &trans                   &lt 6 DEL         &trans                     &kp RET  &trans         &kp FSLH
+&mt LSHIFT PG_UP            &mt LEFT_ALT HOME  &mt LC(LSHIFT) UP_ARROW  &mt LEFT_ALT END     &kp LS(LA(LC(BACKSLASH)))  &none    &kp F9         &kp F10       &kp F11            &kp F12
+&mt LC(LEFT_CONTROL) PG_DN  &kp LEFT_ARROW     &kp DOWN_ARROW           &kp RIGHT_ARROW      &bksp_del                  &none    &hsr RSHFT F5  &hmr RGUI F6  &hmr RIGHT_ALT F7  &hmr RCTRL F8
+&kp LG(Z)                   &kp LG(X)          &kp LG(C)                &kp LG(V)            &kp LG(LS(K))              &kp F1   &kp F2         &kp F3        &kp F4
+&trans                      &trans             &trans                   &lt 6 LA(BACKSPACE)  &trans                     &kp RET  &trans         &kp FSLH
             >;
         };
 
