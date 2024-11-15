@@ -238,6 +238,7 @@
         slash_question {
             bindings = <&kp SLASH>;
             key-positions = <28 27>;
+            layers = <0>;
         };
 
         bslash_pipe {
